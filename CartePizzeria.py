@@ -15,3 +15,6 @@ class CartePizzeria:
         self.carte[len(self.carte)] = pizza
         
     def remove_pizza(self, name):
+        del self.carte[name]
+
+        
