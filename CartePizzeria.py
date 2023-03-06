@@ -1,4 +1,8 @@
 class CartePizzeria:
+    
+    def __init__(self):
+        self.carte = {}
+        
     def is_empty(self):
         if(len(self.carte) == 0):
             return True
