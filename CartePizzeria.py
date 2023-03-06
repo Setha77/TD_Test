@@ -12,5 +12,6 @@ class CartePizzeria:
         return len(self.carte)
     
     def add_pizza(self, pizza):
+        self.carte[len(self.carte)] = pizza
         
     def remove_pizza(self, name):
