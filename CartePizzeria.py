@@ -5,4 +5,4 @@ class CartePizzeria:
         
     def add_pizza(self, pizza):
         
-    def remove_pizza(self, pizza):
+    def remove_pizza(self, name):
