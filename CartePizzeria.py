@@ -4,3 +4,5 @@ class CartePizzeria:
     def nb_pizzas(self):
         
     def add_pizza(self, pizza):
+        
+    def remove_pizza(self, pizza):
