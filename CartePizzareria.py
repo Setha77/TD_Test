@@ -9,10 +9,7 @@ class CartePizzareria:
         return len(self.listePizza)
     
     def is_empty(self):
-        if len(self.listePizza) == 0:
-            print("La liste est vide")
-        else:
-            print("La liste n'est pas vide")
+       return len(self.listePizza) == 0
     
     def add_Pizza(self, pizza):
         self.listePizza.append(pizza)
